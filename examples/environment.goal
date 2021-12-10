@@ -1,0 +1,6 @@
+% bw4t.mas2g
+
+use "bw4t-client-3.10.1.jar" as environment with
+    % emitted: client & server info
+    agentcount = "3", humancount = "0", launchgui = "false", goal = "true".
+    %             👆 change from 1 to 3

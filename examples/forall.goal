@@ -1,0 +1,6 @@
+%                👇 notice the past tense
+forall (Agent).sent(weather(Weather)) do
+    insert(weather(Agent, Weather)).
+%    nextColour(ColourId).
+
+% forall do insert(weather(Agent, Weather)).

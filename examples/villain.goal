@@ -1,0 +1,2 @@
+forall (Agent).sent(villain(Villain, Location)) do
+    superJumpTo(Location) + fight(Villain).

@@ -1,0 +1,2 @@
+if true, bel(weather(Weather)) then
+    all.send(weather(terrible)).

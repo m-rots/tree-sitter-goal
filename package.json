@@ -1,0 +1,35 @@
+{
+  "name": "tree-sitter-goal",
+  "version": "0.20.0",
+  "description": "GOAL grammar for tree-sitter",
+  "repository": "https://github.com/m-rots/tree-sitter-goal",
+  "main": "bindings/node",
+  "keywords": [
+    "parser",
+    "tree-sitter",
+    "goal"
+  ],
+  "author": "Storm Timmermans",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.15.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.0"
+  },
+  "scripts": {
+    "build": "tree-sitter generate",
+    "test": "tree-sitter test"
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.goal",
+      "file-types": [
+        "goal",
+        "mas2g",
+        "mod2g",
+        "act2g"
+      ]
+    }
+  ]
+}
