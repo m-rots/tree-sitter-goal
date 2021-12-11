@@ -26,6 +26,7 @@
     "drop"
 ] @keyword)
 
+(actioncombo "+" @operator)
 (action (id) @function)
 
 (fact
@@ -41,6 +42,13 @@
 (stateop) @keyword
 
 (selector_literal) @type
+
+; "{" @punctuation.bracket
+; "}" @punctuation.bracket
+"(" @punctuation.bracket
+")" @punctuation.bracket
+; "[" @punctuation.bracket
+; "]" @punctuation.bracket
 
 "," @punctuation.delimiter
 "." @punctuation.delimiter
